@@ -1,7 +1,3 @@
----
-description: Usage of the Clean UI Landing Page
----
-
 # Getting Started
 
 ## Gatsby Version
