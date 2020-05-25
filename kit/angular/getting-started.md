@@ -19,7 +19,5 @@ Please keep in mind that some files in the root folder are hidden \(starting wit
 
 {% page-ref page="themes.md" %}
 
-{% page-ref page="pro-edition.md" %}
-
 
 

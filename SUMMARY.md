@@ -83,22 +83,19 @@
   * [Getting Started](kit/react/getting-started.md)
   * [Structure Overview](kit/react/structure-overview.md)
   * [Themes & Font](kit/react/themes.md)
-  * [Pro Edition](kit/react/pro-edition.md)
 * [Vue](kit/vue/README.md)
   * [Getting Started](kit/vue/getting-started.md)
   * [Structure Overview](kit/vue/structure-overview.md)
   * [Themes & Font](kit/vue/themes.md)
-  * [Pro Edition](kit/vue/pro-edition.md)
 * [Angular](kit/angular/README.md)
   * [Getting Started](kit/angular/getting-started.md)
   * [Structure Overview](kit/angular/structure-overview.md)
   * [Themes & Font](kit/angular/themes.md)
-  * [Pro Edition](kit/angular/pro-edition.md)
 * [Html](kit/html/README.md)
   * [Getting Started](kit/html/getting-started.md)
   * [Structure Overview](kit/html/structure-overview.md)
   * [Themes & Font](kit/html/themes.md)
-  * [Pro Edition](kit/html/pro-edition.md)
+* [Pro Edition](kit/pro-edition.md)
 
 ## Onepage Landing
 
