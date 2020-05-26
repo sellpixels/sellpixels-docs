@@ -14,7 +14,7 @@ NOTE: A single license can be used only for one product or client. Each use of t
 
 | Name | Docs Link | Preview |  GitHub | Version |
 | :--- | :--- | :--- | :--- | :--- |
-| Clean UI Pro React \(cra\) | [Docs](admin-templates/react/) | [Preview](https://react.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-react-cra) | 3.2.0 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-react-cra/releases)\) |
+| Clean UI Pro React \(cra\) | [Docs](admin-templates/react/) | [Preview](https://react.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-react-cra) | 3.2.1 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-react-cra/releases)\) |
 | Air UI React | [Docs](admin-templates/react/) | [Preview](https://react.airui.cloud) | [Private](https://github.com/sellpixels/airui-admin-template-react) | 1.1.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
 
 ### Vue
