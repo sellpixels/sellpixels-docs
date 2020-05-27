@@ -4,7 +4,7 @@
 
 ### Building Your App from Prebuilt Files
 
-* Copy necessary html code to your app from `dist/verisons/*`
+* Copy necessary html code to your app from `dist/versions/*`
 * Add third-party plugin files to your app from `dist/vendors/*`
 * Import styles to your app from `dist/components/**/*.css`
 * Add necessary component js to your app from `dist/components/**/*.js`
