@@ -21,7 +21,7 @@ NOTE: A single license can be used only for one product or client. Each use of t
 
 | Name | Docs Link | Preview | Github | Version |
 | :--- | :--- | :--- | :--- | :--- |
-| Clean UI Pro Vue | [Docs](admin-templates/vue/) | [Preview](https://vue.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-vue) | 3.2.0 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-vue/releases)\) |
+| Clean UI Pro Vue | [Docs](admin-templates/vue/) | [Preview](https://vue.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-vue) | 3.2.1 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-vue/releases)\) |
 | Air UI Vue | [Docs](admin-templates/vue/) | [Preview](https://vue.airui.cloud) | [Private](https://github.com/sellpixels/airui-admin-template-vue) | 1.1.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
 
 ### Angular
