@@ -44,10 +44,10 @@ NOTE: A single license can be used only for one product or client. Each use of t
 
 | Name | Docs Link | Preview | GitHub | Version |
 | :--- | :--- | :--- | :--- | :--- |
-| KIT Pro React | [Docs](kit/react/) | [Preview](https://react.kitpro.cloud) | [Private](https://github.com/sellpixels/kit-pro-react) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-react/releases)\) |
-| KIT Pro Vue | [Docs](kit/vue/) | [Preview](https://vue.kitpro.cloud) | [Private](https://github.com/sellpixels/kit-pro-vue) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-vue/releases)\) |
-| KIT Pro Angular | [Docs](kit/angular/) | [Preview](https://angular.kitpro.cloud) | [Private](https://github.com/sellpixels/kit-pro-angular) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-angular/releases)\) |
-| KIT Pro Html | [Docs](kit/html/) | [Preview](https://html.kitpro.cloud/versions/main/widgets-general.html) | [Private](https://github.com/sellpixels/kit-pro-html) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-html/releases)\) |
+| KIT Pro React | [Docs]() | [Preview](https://react.kitpro.cloud) | [Private](https://github.com/sellpixels/kit-pro-react) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-react/releases)\) |
+| KIT Pro Vue | [Docs]() | [Preview](https://vue.kitpro.cloud) | [Private](https://github.com/sellpixels/kit-pro-vue) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-vue/releases)\) |
+| KIT Pro Angular | [Docs]() | [Preview](https://angular.kitpro.cloud) | [Private](https://github.com/sellpixels/kit-pro-angular) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-angular/releases)\) |
+| KIT Pro Html | [Docs]() | [Preview](https://html.kitpro.cloud/versions/main/widgets-general.html) | [Private](https://github.com/sellpixels/kit-pro-html) | 2.2.0 \([Release Notes](https://github.com/sellpixels/kit-pro-html/releases)\) |
 
 ### KIT \(Open Source\)
 

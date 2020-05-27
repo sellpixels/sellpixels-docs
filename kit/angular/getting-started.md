@@ -15,9 +15,5 @@ Please keep in mind that some files in the root folder are hidden \(starting wit
 
 ### What's Next?
 
-{% page-ref page="structure-overview.md" %}
-
-{% page-ref page="themes.md" %}
-
 
 

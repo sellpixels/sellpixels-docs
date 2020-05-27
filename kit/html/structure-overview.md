@@ -26,7 +26,7 @@ See Getting Started section to run development server
 * Import you styles to `src/versions/head.html`
 * Run `gulp` build task
 
-Build task will make the build into `dist` folder. The compiler will go through the `src/pages` folder, wrap the internal files with each `src/versions` file, then `@@include` all components into the pages. 
+Build task will make the build into `dist` folder. The compiler will go through the `src/pages` folder, wrap the internal files with each `src/versions` file, then `@@include` all components into the pages.
 
 ## Files Tree
 
@@ -44,6 +44,4 @@ Build task will make the build into `dist` folder. The compiler will go through 
 ├─ *                         .. system npm, gulp, and git files
 └─ README.md                 .. git readme file
 ```
-
-
 

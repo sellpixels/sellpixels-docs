@@ -21,7 +21,7 @@ We used CSS variables to set primary color & font family globally. This variable
 
 Some third-party plugins also used this variable. See the `components/kit/vendors` folder.
 
-#### Dynamically change by Color Picker
+### Dynamically change by Color Picker
 
 On color change event in Color Picker component next code will be added to the end of the document, which will set `--kit-color-primary` variable to a new statement:
 
@@ -31,7 +31,7 @@ On color change event in Color Picker component next code will be added to the e
 
 ## Switching Light / Dark Theme
 
-Basically switching light theme to dark theme will change `data-kit-theme` on html tag. 
+Basically switching light theme to dark theme will change `data-kit-theme` on html tag.
 
 * Light theme: `<html data-kit-theme="default">`
 * Dark theme: `<html data-kit-theme="dark">`
