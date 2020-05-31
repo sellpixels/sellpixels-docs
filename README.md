@@ -28,7 +28,7 @@ NOTE: A single license can be used only for one product or client. Each use of t
 
 | Name | Docs Link | Preview | GitHub | Version |
 | :--- | :--- | :--- | :--- | :--- |
-| Clean UI Pro Angular | [Docs](admin-templates/angular/) | [Preview](https://angular.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-angular) | 3.2.0 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-angular/releases)\) |
+| Clean UI Pro Angular | [Docs](admin-templates/angular/) | [Preview](https://angular.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-angular) | 3.2.1 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-angular/releases)\) |
 | Air UI Angular | [Docs](admin-templates/angular/) | [Preview](https://react.airui.cloud) | [Private](https://github.com/sellpixels/airui-admin-template-angular) | 1.1.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
 
 ### Html
