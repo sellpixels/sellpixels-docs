@@ -16,7 +16,7 @@
     * [Layout Settings](admin-templates/react/cookbook/layout-settings.md)
     * [Router](admin-templates/react/cookbook/router.md)
     * [App Authorization](admin-templates/react/cookbook/authorization/README.md)
-      * [Firebase \(default\)](admin-templates/react/cookbook/authorization/firebase.md)
+      * [Firebase](admin-templates/react/cookbook/authorization/firebase.md)
       * [JWT](admin-templates/react/cookbook/authorization/jwt.md)
       * [Auth0](admin-templates/react/cookbook/authorization/auth0.md)
       * [Strapi](admin-templates/react/cookbook/authorization/strapi.md)

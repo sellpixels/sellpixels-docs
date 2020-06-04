@@ -1,32 +1,76 @@
-# Firebase \(default\)
+# Firebase
 
 Our templates uses `firebase` service for default app authorization.
 
-Check `src/services/firebase.auth.service.js`  file for next functions:
+### Configuring
 
-{% code title="src/services/firebase.auth.service.js" %}
+Replace `firebase` configuration with yours in `src/services/firebase/index.js`
+
+{% code title="src/services/firebase/index.js" %}
 ```javascript
-export async function login(email, password) { ... } // auth procedure
+const firebaseConfig = {
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+}
+```
+{% endcode %}
+
+### Authorization Methods
+
+Check `src/services/firebase/index.js`  file for next functions:
+
+{% code title="src/services/firebase/index.js" %}
+```javascript
+export async function login(email, password) { ... } // sign in procedure
+export async function register(email, password, name) { ... } // sign up procedure
 export async function currentAccount() { ... } // get current authorized user data
 export async function logout() { ... } // logout user
 ```
 {% endcode %}
 
- `src/redux/user/sagas.js` file handles app authorization process. 
+ For switching app to authorized state you should set `authorized` prop to `true`
 
-{% code title="src/models/user.js" %}
+{% code title="src/redux/user/reducers.js" %}
 ```javascript
-import { login, currentAccount, logout } from 'services/firebase.auth.service'
+const initialState = {
+  id: 'USER_ID',
+  name: 'USER_NAME',
+  role: 'USER_ROLE',
+  email: 'USER@EMAIL.COM',
+  avatar: '',
+  authorized: true, // user is authorized
+  loading: false, // handles user fetching state, eg. set Sign In button to loading state
+}
+```
+{% endcode %}
+
+`src/redux/user/sagas.js` file handles app authorization process. The app should get user data from firebase API and save user state to store.
+
+{% code title="src/redux/user/.js" %}
+```javascript
+import * as firebase from 'services/firebase'
 
 export function* LOGIN() {
+  yield call(firebase.login, email, password)
+  ...
+}
+
+export function* REGISTER() {
+  yield call(firebase.register, email, password)
   ...
 }
 
 export function* LOAD_CURRENT_ACCOUNT() {
+  yield call(firebase.currentAccount, email, password)
   ...
 }
 
 export function* LOGOUT() {
+  yield call(firebase.logout, email, password)
   ...
 }
 
@@ -41,7 +85,7 @@ export default function* rootSaga() {
 ```
 {% endcode %}
 
-#### Auth Method on Login Page
+### Dispatching Auth Methods
 
 {% code title="src/components/{templateName}/system/Auth/Login/index.js" %}
 ```javascript
@@ -49,6 +93,28 @@ const onFinish = values => {
   dispatch({
     type: 'user/LOGIN',
     payload: values,
+  })
+}
+```
+{% endcode %}
+
+{% code title="src/components/{templateName}/system/Auth/Register/index.js" %}
+```javascript
+const onFinish = values => {
+  dispatch({
+    type: 'user/REGISTER',
+    payload: values,
+  })
+}
+```
+{% endcode %}
+
+{% code title="src/components/{templateName}/layout/TopBar/UserMenu/index.js" %}
+```javascript
+const logout = e => {
+  e.preventDefault()
+  dispatch({
+    type: 'user/LOGOUT',
   })
 }
 ```
