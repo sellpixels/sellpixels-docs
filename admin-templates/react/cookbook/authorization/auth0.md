@@ -4,7 +4,7 @@ Auth0 auth provider implementation is a little complex than JWT or Firebase. It 
 
 [https://auth0.com/blog/authenticating-your-first-react-app/](https://auth0.com/blog/authenticating-your-first-react-app/)
 
-The differences between this article and our templates is just in user state handled by Redux in our templates. That's mean you should additionally set user state by dispatching `user/SET_STATE` action:
+The differences between this article and our templates implementation is just in that user state handled by Redux in our templates. That's mean you should additionally set user state by dispatching `user/SET_STATE` action:
 
 ```javascript
 // initialize the auth0 library
