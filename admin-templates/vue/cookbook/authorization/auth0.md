@@ -1,10 +1,10 @@
 # Auth0
 
-Auth0 auth provider implementation is a little complex than JWT or Firebase. It uses Auth0 app wrapper and React context for handling current state. Follow this article to add this provider to template: 
+Auth0 auth provider implementation is a little complex than JWT or Firebase. It uses Auth0 service for handling current state. Follow this article to add this provider to template: 
 
 [https://auth0.com/docs/quickstart/spa/vuejs/01-login](https://auth0.com/docs/quickstart/spa/vuejs/01-login)
 
-The differences between this article and our templates implementation is just in that user state handled by Redux in our templates. That's mean you should additionally set user state by dispatching `user/SET_STATE` action:
+The differences between this article and our templates implementation is just in that user state handled by Vuex in our templates. That's mean you should additionally set user state by committing `user/SET_STATE` action:
 
 ```javascript
 // initialize the auth0 library

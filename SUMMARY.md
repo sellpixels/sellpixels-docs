@@ -57,7 +57,7 @@
     * [Layout Settings](admin-templates/angular/cookbook/layout-settings.md)
     * [Router](admin-templates/angular/cookbook/router.md)
     * [App Authorization](admin-templates/angular/cookbook/authorization/README.md)
-      * [Firebase \(default\)](admin-templates/angular/cookbook/authorization/firebase.md)
+      * [Firebase](admin-templates/angular/cookbook/authorization/firebase.md)
       * [JWT](admin-templates/angular/cookbook/authorization/jwt.md)
       * [Auth0](admin-templates/angular/cookbook/authorization/auth0.md)
       * [Strapi](admin-templates/angular/cookbook/authorization/strapi.md)

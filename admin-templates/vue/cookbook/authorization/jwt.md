@@ -48,7 +48,7 @@ state: {
 ```
 {% endcode %}
 
-`src/store/user/index.js` file handles app authorization process. The app should get user data from firebase API and save user state to store.
+`src/store/user/index.js` file handles app authorization process. The app should get user data from  API and save user state to store.
 
 {% code title="src/store/user/index.js" %}
 ```javascript

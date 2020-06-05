@@ -31,7 +31,7 @@ const initialState = {
 ```
 {% endcode %}
 
-`src/redux/user/sagas.js` file handles app authorization process. The app should get user data from firebase API and save user state to store.
+`src/redux/user/sagas.js` file handles app authorization process. The app should get user data from  API and save user state to store.
 
 {% code title="src/redux/user/sagas.js" %}
 ```javascript
