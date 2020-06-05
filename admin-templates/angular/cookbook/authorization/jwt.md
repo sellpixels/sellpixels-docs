@@ -1,6 +1,6 @@
 # JWT
 
-JWT auth uses `HttpClient` for handling auth process. Pass authToken to request in `src/app/services/jwt/index.ts`
+JWT auth uses `HttpClient` for handling auth process. Pass authToken to requests in `src/app/services/jwt/index.ts`
 
 ### Authorization Methods
 
