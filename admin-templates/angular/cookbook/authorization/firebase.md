@@ -4,9 +4,9 @@ Our templates uses `firebase` service for default app authorization.
 
 ### Configuring
 
-Replace `firebase` configuration with yours in `src/services/firebase/index.ts`
+Replace `firebase` configuration with yours in `src/app/services/firebase/index.ts`
 
-{% code title="src/services/firebase/index.ts" %}
+{% code title="src/app/services/firebase/index.ts" %}
 ```javascript
 export const firebaseConfig = {
   apiKey: 'AIzaSyBJVhr2WZshEGR7egcxoygQIphKOkKVIYQ',
@@ -47,7 +47,7 @@ import { firebaseConfig, firebaseAuthService } from './services/firebase'
 
 ### Authorization Methods
 
-Check `src/services/firebase/index.js`  file for next functions:
+Check `src/app/services/firebase/index.js`  file for next functions:
 
 {% code title="src/app/services/firebase/index.ts" %}
 ```javascript

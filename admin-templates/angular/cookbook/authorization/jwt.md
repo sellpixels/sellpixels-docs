@@ -4,7 +4,7 @@ JWT auth uses `HttpClient` for handling auth process. Pass authToken to requests
 
 ### Authorization Methods
 
-Check `src/services/jwt/index.ts`  file for next functions:
+Check `src/app/services/jwt/index.ts`  file for next functions:
 
 {% code title="src/app/services/jwt/index.ts" %}
 ```javascript
@@ -57,7 +57,7 @@ export const initialState: object = {
 
 `src/app/store/user/effects.ts` file handles app authorization process. The app should get user data from API and save user state to store.
 
-{% code title="src/redux/user/.ts" %}
+{% code title="src/app/store/user/effects.ts" %}
 ```javascript
 import * as firebase from 'services/firebase'
 
