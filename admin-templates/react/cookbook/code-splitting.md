@@ -11,7 +11,7 @@ const routes = [
   // System Pages
   {
     path: '/user/login',
-    component: loadable(() => import('pages/user/login')),
+    component: lazy(() => import('pages/user/login')),
     exact: true,
   },
   ...

@@ -1,6 +1,6 @@
 # JWT
 
-JWT auth uses `axios` for handling auth process. Configure `axios` headers \(Authorization or AccessToken, depends on what accept your backend\) in `src/services/axios/index.` `axios` will hook accessToken from localStorage
+JWT auth uses `axios` for handling auth process. Configure `axios` headers \(Authorization or AccessToken, depends on what accept your backend\) in `src/services/axios/index.js` `axios` will hook accessToken from localStorage
 
 ### Authorization Methods
 

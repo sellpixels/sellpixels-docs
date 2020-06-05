@@ -1,53 +1,87 @@
-# Firebase \(default\)
+# Firebase
 
-Clean UI uses `firebase` service for default app authorization. In the app Firebase Auth registered as a plugin and available as  `$auth` object.
+Our templates uses `firebase` service for default app authorization.
 
-#### Injection
+### Configuring
 
-{% code title="src/main.js" %}
+Replace `firebase` configuration with yours in `src/services/firebase/index.js`
+
+{% code title="src/services/firebase/index.js" %}
 ```javascript
-import FirebaseAuthService from './services/firebase.auth.service'
-...
-Vue.use(FirebaseAuthService)
+const firebaseConfig = {
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+}
 ```
 {% endcode %}
 
-#### Firebase Plugin
+### Authorization Methods
 
-{% code title="src/services/firebase.auth.service.js" %}
+Check `src/services/firebase/index.js`  file for next functions:
+
+{% code title="src/services/firebase/index.js" %}
 ```javascript
-...
-const config = {
-  apiKey: ...,
-  authDomain: ...,
-  databaseURL: ...,
-  projectId: ...,
-  storageBucket: ...,
-  messagingSenderId: ...,
-}
+export async function login(email, password) { ... } // sign in procedure
+export async function register(email, password, name) { ... } // sign up procedure
+export async function currentAccount() { ... } // get current authorized user data
+export async function logout() { ... } // logout user
+```
+{% endcode %}
 
-export default {
-  install: (Vue, options) => {
-    const firebaseApp = firebase.initializeApp(config)
-    const auth = firebaseApp.auth()
-    Vue.prototype.$auth = {
-      login: async (username, pass) => {
-        return auth.signInWithEmailAndPassword(username, pass)
-      },
-      logout: async () => {
-        router.push('/user/login')
-        await auth.signOut()
-      },
-    }
-    auth.onAuthStateChanged(user => {
-      store.commit('UPDATE_USER', { user })
-    })
+ For switching app to authorized state you should set `authorized` prop to `true`
+
+{% code title="src/redux/user/reducers.js" %}
+```javascript
+state: {
+  id: 'USER_ID',
+  name: 'USER_NAME',
+  role: 'USER_ROLE',
+  email: 'USER@EMAIL.COM',
+  avatar: '',
+  authorized: true, // user is authorized
+  loading: false, // handles user fetching state, eg. set Sign In button to loading state
+}
+```
+{% endcode %}
+
+`src/store/user/index.js` file handles app authorization process. The app should get user data from firebase API and save user state to store.
+
+{% code title="src/store/user/index.js" %}
+```javascript
+import * as firebase from '@/services/firebase'
+
+actions: {
+  LOGIN({...}, { payload }) {
+    const { email, password } = payload
+    firebase.login(email, password).then(success => {...}
+  },
+  REGISTER({...}, { payload }) {
+    const { email, password, name } = payload
+    firebase.register(email, password, name).then(success => {...}
+  },
+  LOAD_CURRENT_ACCOUNT({...}) {
+    firebase.currentAccount().then(success => {...}
+  },
+  LOGOUT({...}) {
+    firebase.logout().then(success => {...}
   },
 }
 ```
 {% endcode %}
 
-#### Auth Method on Login Page
+On first app load `App.vue` triggers `user/LOAD_CURRENT_ACCOUNT` for checking user state:
+
+```javascript
+mounted() {
+  this.$store.dispatch('user/LOAD_CURRENT_ACCOUNT')
+}
+```
+
+### Dispatching Auth Methods
 
 {% code title="src/components/{templateName}/system/Auth/Login/index.vue" %}
 ```javascript
@@ -56,24 +90,34 @@ methods: {
     e.preventDefault()
     this.form.validateFields((err, values) => {
       if (!err) {
-        this.$nprogress.start()
-        this.$auth.login(values.email, values.password)
-          .then(() => {
-            this.$nprogress.done()
-            this.$notification['success']({
-              message: 'Logged In',
-              description: 'You have successfully logged in to Clean UI Vue Admin Template!',
-            })
-          })
-          .catch((error) => {
-            this.$nprogress.done()
-            this.$notification['warning']({
-              message: error.code,
-              description: error.message,
-            })
-          })
+        this.$store.dispatch('user/LOGIN', { payload: values })
       }
     })
+  },
+}
+```
+{% endcode %}
+
+{% code title="src/components/{templateName}/system/Auth/Register/index.vue" %}
+```javascript
+methods: {
+  handleSubmit(e) {
+    e.preventDefault()
+    this.form.validateFields((err, values) => {
+      if (!err) {
+        this.$store.dispatch('user/REGISTER', { payload: values })
+      }
+    })
+  },
+}
+```
+{% endcode %}
+
+{% code title="src/components/{templateName}/layout/Topbar/UserMenu/index.vue" %}
+```javascript
+methods: {
+  logout() {
+    this.$store.dispatch('user/LOGOUT')
   },
 },
 ```

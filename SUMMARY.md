@@ -37,7 +37,7 @@
     * [Layout Settings](admin-templates/vue/cookbook/layout-settings.md)
     * [Router](admin-templates/vue/cookbook/router.md)
     * [App Authorization](admin-templates/vue/cookbook/authorization/README.md)
-      * [Firebase \(default\)](admin-templates/vue/cookbook/authorization/firebase.md)
+      * [Firebase](admin-templates/vue/cookbook/authorization/firebase.md)
       * [JWT](admin-templates/vue/cookbook/authorization/jwt.md)
       * [Auth0](admin-templates/vue/cookbook/authorization/auth0.md)
       * [Strapi](admin-templates/vue/cookbook/authorization/strapi.md)
