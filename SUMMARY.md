@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Templates List](README.md)
-* [Templates Features](pro-edition.md)
+* [Templates Features](templates-features.md)
 * [Customer Reviews](customer-reviews.md)
 * [FAQ](faq.md)
 
