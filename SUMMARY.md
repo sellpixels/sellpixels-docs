@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Templates List](README.md)
+* [Templates Features](pro-edition.md)
 * [Customer Reviews](customer-reviews.md)
 * [FAQ](faq.md)
 
@@ -95,7 +96,6 @@
   * [Getting Started](kit/html/getting-started.md)
   * [Structure Overview](kit/html/structure-overview.md)
   * [Themes & Font](kit/html/themes.md)
-* [Pro Edition](kit/pro-edition.md)
 
 ## Onepage Landing
 
