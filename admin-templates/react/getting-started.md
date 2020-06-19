@@ -7,7 +7,7 @@ Please keep in mind that some files in the root folder are hidden \(starting wit
 ### Quick Start
 
 * Install node.js: [https://nodejs.org​](https://nodejs.org/)
-* Install yarn package manager: [https://yarnpkg.com/​](https://yarnpkg.com/%E2%80%8B)
+* Install yarn package manager: [https://yarnpkg.com/​](https://yarnpkg.com/)
 * Install node modules by running terminal command `yarn install`
 * Run the app `yarn start`
 * Or build production app `yarn build`
