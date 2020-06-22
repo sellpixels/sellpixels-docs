@@ -4,7 +4,7 @@
 Please keep in mind that some files in the root folder are hidden \(starting with a dot symbol, e.g. .eslintr.js or .env files\). To avoid compilation problems, please check this if you want to move the files to another folder.
 {% endhint %}
 
-### Quick Start
+## Quick Start
 
 * Install node.js: [https://nodejs.org​](https://nodejs.org/)
 * Install yarn package manager: [https://yarnpkg.com/​](https://yarnpkg.com/)
@@ -12,7 +12,7 @@ Please keep in mind that some files in the root folder are hidden \(starting wit
 * Run the app `yarn start`
 * Or build production app `yarn build`
 
-### What's Next?
+## What's Next?
 
 {% page-ref page="structure-overview.md" %}
 
@@ -21,6 +21,4 @@ Please keep in mind that some files in the root folder are hidden \(starting wit
 {% page-ref page="themes.md" %}
 
 {% page-ref page="ant-design.md" %}
-
-
 
