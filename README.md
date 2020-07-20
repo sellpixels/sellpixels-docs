@@ -23,21 +23,21 @@ NOTE: A single license can be used only for one product or client. Each use of t
 | Name | Docs Link | Preview | Github | Version |
 | :--- | :--- | :--- | :--- | :--- |
 | Clean UI Pro Vue | [Docs](admin-templates/vue/) | [Preview](https://vue.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-vue) | 3.2.2 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-vue/releases)\) |
-| Air UI Vue | [Docs](admin-templates/vue/) | [Preview](https://vue.airui.cloud) | [Private](https://github.com/sellpixels/airui-admin-template-vue) | 1.1.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
+| Air UI Vue | [Docs](admin-templates/vue/) | [Preview](https://vue.airui.cloud) | [Private](https://github.com/sellpixels/airui-admin-template-vue) | 2.0.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
 
 ### Angular
 
 | Name | Docs Link | Preview | GitHub | Version |
 | :--- | :--- | :--- | :--- | :--- |
 | Clean UI Pro Angular | [Docs](admin-templates/angular/) | [Preview](https://angular.cleanui.cloud) | [Private](https://github.com/sellpixels/cleanui-admin-template-angular) | 3.2.1 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-angular/releases)\) |
-| Air UI Angular | [Docs](admin-templates/angular/) | [Preview](https://react.airui.cloud) | [Private](https://github.com/sellpixels/airui-admin-template-angular) | 1.1.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
+| Air UI Angular | [Docs](admin-templates/angular/) | [Preview](https://react.airui.cloud) | [Private](https://github.com/sellpixels/airui-admin-template-angular) | 2.0.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
 
 ### Html
 
 | Name | Docs Link | Preview | GitHub | Version |
 | :--- | :--- | :--- | :--- | :--- |
 | Clean UI Pro Html | [Docs](admin-templates/html/) | [Preview](https://html.cleanui.cloud/versions/menu-left-white/dashboards-alpha.html) | [Private](https://github.com/sellpixels/cleanui-admin-template-html) | 3.2.1 \([Release Notes](https://github.com/sellpixels/cleanui-admin-template-html/releases)\) |
-| Air UI Html | [Docs](admin-templates/html/) | [Preview](https://airui.cloudl/versions/left-flyout-dark/dashboards-analytics.html) | [Private](https://github.com/sellpixels/airui-admin-template-html) | 1.1.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
+| Air UI Html | [Docs](admin-templates/html/) | [Preview](https://airui.cloudl/versions/left-flyout-dark/dashboards-analytics.html) | [Private](https://github.com/sellpixels/airui-admin-template-html) | 2.0.0 \([Release Notes](https://github.com/sellpixels/airui-admin-template-react/releases)\) |
 {% endtab %}
 
 {% tab title="KIT" %}
