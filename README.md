@@ -71,7 +71,7 @@ NOTE: A single license can be used only for one product or client. Each use of t
 {% endtab %}
 
 {% tab title="Wireframes" %}
-### Sketch, XD & Figma Files \(MIT License\)
+### Sketch Files \(MIT License\)
 
 Repository: [https://github.com/sellpixels/sellpixels-design-wireframes](https://github.com/sellpixels/sellpixels-design-wireframes)
 {% endtab %}
