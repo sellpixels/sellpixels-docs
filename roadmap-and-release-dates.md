@@ -57,7 +57,7 @@
 {% tab title="Air UI" %}
 #### React
 
-> Nothing
+> Nothing scheduled at this time
 
 #### Vue
 
@@ -73,13 +73,13 @@
 
 #### Html
 
-> Nothing
+> Nothing scheduled at this time
 {% endtab %}
 
 {% tab title="KIT / KIT Pro" %}
 #### React
 
-> Nothing
+> Nothing scheduled at this time
 
 #### Vue
 
@@ -95,17 +95,17 @@
 
 #### Html
 
-> Nothing
+> Nothing scheduled at this time
 {% endtab %}
 
 {% tab title="One Page Landing" %}
 #### Gatsby
 
-> Nothing
+> Nothing scheduled at this time
 
 #### Html
 
-> Nothing
+> Nothing scheduled at this time
 {% endtab %}
 {% endtabs %}
 
