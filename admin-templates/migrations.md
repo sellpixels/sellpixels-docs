@@ -4,6 +4,15 @@ description: Guides for major version updates
 
 # Migrations
 
+## \[16 September 2020\] Angular update to v10
+
+{% tabs %}
+{% tab title="Angular" %}
+* **ng10:** Updated to v10, reference [https://angular.io/guide/updating-to-version-10](https://angular.io/guide/updating-to-version-10)
+* **deps**: Updated to latest versions
+{% endtab %}
+{% endtabs %}
+
 ## \[25 May 2020\] Update to KIT v2 codebase 
 
 #### Affected templates:

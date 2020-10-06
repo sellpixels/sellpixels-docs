@@ -2,6 +2,7 @@
 
 * [Templates List](README.md)
 * [Templates Features](templates-features.md)
+* [Roadmap & Release Dates](roadmap-and-release-dates.md)
 * [Customer Reviews](customer-reviews.md)
 * [FAQ](faq.md)
 
@@ -48,6 +49,7 @@
     * [Localization](admin-templates/vue/cookbook/localization.md)
   * [Themes & Font](admin-templates/vue/themes.md)
   * [Ant Design \(vue-ant-design\)](admin-templates/vue/ant-design.md)
+  * [Laravel Version](admin-templates/vue/laravel-version.md)
 * [Angular](admin-templates/angular/README.md)
   * [Getting Started](admin-templates/angular/getting-started.md)
   * [Structure Overview](admin-templates/angular/structure-overview.md)
