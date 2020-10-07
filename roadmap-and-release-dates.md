@@ -1,8 +1,12 @@
+---
+description: 'Last update: 07 OCT 2020'
+---
+
 # Roadmap & Release Dates
 
 {% tabs %}
 {% tab title="Visual Builder" %}
-#### Node.js App Generator
+### Node.js App Generator
 
 | Version | Status | Release Date |
 | :--- | :--- | :--- |
@@ -14,7 +18,7 @@
 | Html | Waiting |  |
 | Html + Laravel | Waiting |  |
 
-#### Frontend Drag & Drop Builder
+### Frontend Drag & Drop Builder
 
 | Version | Status | Release Date |
 | :--- | :--- | :--- |
@@ -23,13 +27,13 @@
 {% endtab %}
 
 {% tab title="Clean UI" %}
-#### React
+### React
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
 | Algolia | Waiting |  |
 
-#### Vue
+### Vue
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
@@ -39,7 +43,7 @@
 | Algolia | Waiting |  |
 | Vue + Laravel: Chunks enhancements | Waiting |  |
 
-#### Angular
+### Angular
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
@@ -47,7 +51,7 @@
 | Login page: Hide when user is authorized | Waiting |  |
 | Algolia | Waiting |  |
 
-#### Html
+### Html
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
@@ -55,55 +59,55 @@
 {% endtab %}
 
 {% tab title="Air UI" %}
-#### React
+### React
 
 > Nothing scheduled at this time
 
-#### Vue
+### Vue
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
 | Update to Vue 3 | In Progress | 15 OCT 2020 |
 
-#### Angular
+### Angular
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
 | ~~Update to Angular 10~~ | ~~Completed~~ | ~~17 SEP 2020~~ |
 
-#### Html
+### Html
 
 > Nothing scheduled at this time
 {% endtab %}
 
 {% tab title="KIT / KIT Pro" %}
-#### React
+### React
 
 > Nothing scheduled at this time
 
-#### Vue
+### Vue
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
 | Update to Vue 3 | In Progress | 15 OCT 2020 |
 
-#### Angular
+### Angular
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
 | ~~Update to Angular 10~~ | ~~Completed~~ | ~~17 SEP 2020~~ |
 
-#### Html
+### Html
 
 > Nothing scheduled at this time
 {% endtab %}
 
 {% tab title="One Page Landing" %}
-#### Gatsby
+### Gatsby
 
 > Nothing scheduled at this time
 
-#### Html
+### Html
 
 > Nothing scheduled at this time
 {% endtab %}
