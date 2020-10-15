@@ -37,8 +37,8 @@ description: 'Last update: 07 OCT 2020'
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
-| Vue: Update to Vue 3 | In Progress | 15 OCT 2020 |
-| Laravel + Vue: Update to Vue 3 | In Progress | 15 OCT 2020 |
+| Vue: Update to Vue 3 | Waiting bootstrap-vue v3 and ant-design-vue v2 \(Vue 3 support\) |  |
+| Laravel + Vue: Update to Vue 3 | Waiting bootstrap-vue v3 and ant-design-vue v2 \(Vue 3 support\) |  |
 | Login page: Hide when user is authorized | Waiting |  |
 | Algolia | Waiting |  |
 | Vue + Laravel: Chunks enhancements | Waiting |  |
@@ -67,7 +67,7 @@ description: 'Last update: 07 OCT 2020'
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
-| Update to Vue 3 | In Progress | 15 OCT 2020 |
+| Update to Vue 3 | Waiting bootstrap-vue v3 and ant-design-vue v2 \(Vue 3 support\) |  |
 
 ### Angular
 
@@ -89,7 +89,7 @@ description: 'Last update: 07 OCT 2020'
 
 | Task | Status | Release Date |
 | :--- | :--- | :--- |
-| Update to Vue 3 | In Progress | 15 OCT 2020 |
+| Update to Vue 3 | Waiting bootstrap-vue v3 and ant-design-vue v2 \(Vue 3 support\) |  |
 
 ### Angular
 
