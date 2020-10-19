@@ -7,6 +7,7 @@ Laravel documentation [https://laravel.com/docs/master](https://laravel.com/docs
 ### Laravel Backend Quick Start
 
 * Install Composer: [https://getcomposer.org/doc/00-intro.md](https://getcomposer.org/doc/00-intro.md)
+* Install dependencies `composer install`
 * Copy and rename `.env.example` to `.env`
 * Generate key `php artisan key:generate`
 * Run the server `php artisan serve`
