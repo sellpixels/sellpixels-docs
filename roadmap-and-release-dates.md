@@ -22,8 +22,7 @@ description: 'Last update: 07 OCT 2020'
 
 | Version | Status | Release Date |
 | :--- | :--- | :--- |
-| React Based | In Progress | 20 OCT 2020 |
-| Html Based | Waiting |  |
+| UI App | In Progress | 20 OCT 2020 |
 {% endtab %}
 
 {% tab title="Clean UI" %}
