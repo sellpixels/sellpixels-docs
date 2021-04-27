@@ -2,7 +2,6 @@
 
 * [Templates List](README.md)
 * [Templates Features](templates-features.md)
-* [Roadmap & Release Dates](roadmap-and-release-dates.md)
 * [Customer Reviews](customer-reviews.md)
 * [FAQ](faq.md)
 
