@@ -8,7 +8,7 @@ Template has three layouts:
 * Auth \(for Login, Lockscreen, etc.. pages\)
 * Public \(empty layout\)
 
-If you need a new layout, just add another one to the `src/layouts folder`, import it into `src/layouts/index.js` and add logic when it needs to be rendered.
+If you need a new layout, just add another one to the `src/layouts` folder, import it into `src/layouts/index.js` and add logic when it needs to be rendered.
 
 See `BootstrappedLayout()` and `getLayout()` functions in `src/layouts/index.js`:
 
