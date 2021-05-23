@@ -4,7 +4,7 @@
 
 Reference: [https://reacttraining.com/react-router/web/guides/quick-start](https://reacttraining.com/react-router/web/guides/quick-start)
 
-Configure routes in `"src/router.js"` and add page components to `"src/page/*"` folder.
+Configure routes in `src/router.js` and add page components to `src/page/*` folder.
 
 {% code title="src/router.js" %}
 ```javascript
