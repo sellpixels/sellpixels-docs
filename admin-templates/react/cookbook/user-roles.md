@@ -1,6 +1,6 @@
 # User Roles
 
-User role affects on `<ACL />`  and `<Menu />` components. Read Basic ACL and Menu Configuration section for detailed information.
+User roles affects the `<ACL />`  and `<Menu />` components. Read the [basic-acl](Basic ACL) and [menu-configuration](Menu Configuration) sections for more details.
 
 {% code title="src/redux/user/reducers.js" %}
 ```javascript
